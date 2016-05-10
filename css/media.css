@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 768px) {
+.four {
+    width: 95%;
+    margin-top: 40px;
+    text-align: center;
+    margin: auto;
+}
+.img1 
+{
+    margin-left: 0;
+    float: none;
+    text-align: center;
+}
+.one
+{
+	width:30%;
+}
+.logo
+{
+	float:none;
+	text-align:center;
+	margin:0 auto;
+}
+#registerform
+{
+	margin:0 !important;
+}
+.searchbox
+{
+	float: none;
+    margin: 0 auto;
+}
+.right
+{
+	float: none;
+    text-align: center;
+	padding-top:3%;
+}
+.fb
+{
+	float: none;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+.lik
+{
+	text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+.form_reg1
+{
+	padding:0 !important;
+}
+h1
+{
+	text-align:center;
+}
+label[for=register_input]
+{
+	text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 3%;
+}
+.register_input
+{
+	margin: 0 auto;
+    display: block;
+	width:100%;
+}
+.input_fld_otr123
+{
+	text-align:center;
+}
+}
+@media screen and (max-width: 340px) {
+.one
+{
+    width: 95% !important;
+    background-size: 100% 100%;
+    margin: auto;
+    float: none;
+    height: auto;
+}
+}
+@media screen and (max-width: 550px) {
+.one
+{
+	width:45%;
+}
+}
+@media screen and (max-width: 550px) {
+label[for=register_input]
+{
+	width:100%;
+}
+}
+@media screen and (max-width: 550px) {
+#loginwrapper
+{
+	width:100%;
+}
+}
+@media screen and (max-width: 360px) {
+.admin_left1
+{
+	float:none;
+	text-align:center;
+}
+.btn
+{
+	width:100%;
+	margin-bottom:4%;
+	margin-left: 14%;
+}
+.colon
+{
+	display:none;
+}
+.des1
+{
+	float:none;
+}
+
+#loginwrapper .textbox
+{
+	    margin-left: 15%;
+}
+}
+@media screen and (max-width: 966px) {
+.one
+{
+	width:30% !important;
+}
+}
+@media screen and (max-width: 740px) {
+.heading h3
+{
+	font-size:18px;
+
+}
+.img1
+{
+	margin-left:0;
+}
+}
+@media screen and (max-width: 594px) {
+.heading h3
+{
+	font-size:14px;
+}
+}
+@media screen and (max-width: 620px) {
+.one
+{
+	width: 45% !important;
+}
+}
+@media screen and (max-width: 398px) {
+.one
+{
+	width: 45% !important;
+}
+}
+@media screen and (max-width: 398px) {
+.one
+{
+	width: 100% !important;
+	background-size:100% 100%;
+}
+/*.one img {
+    margin-left: 43%;
+}
+*/
+.heading
+{
+	background-size:100% 100%;
+}
+}
+@media screen and (max-width: 1266px) {
+.canvas-container
+{
+	width:100% !important;
+	height:auto !important;
+}
+#canvas
+{
+	width:100% !important;
+	height:auto !important;
+}
+.canvas
+{
+	width:100% !important;
+	height:auto !important;
+}
+.upper-canvas 
+{
+	width:100% !important;
+	height:auto !important;
+}
+/*.selInp
+{
+	margin-top: 52%;
+}
+*/
+.view
+{
+	margin-top:54%;
+}
+}
+	
