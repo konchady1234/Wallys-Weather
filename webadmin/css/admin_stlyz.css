@@ -14,6 +14,7 @@
 }
 body {
 	font-family:'open_sansregular';
+<<<<<<< HEAD
 	font-size:14px;
 	background:url(../../images/blkBlue.jpg) repeat;
 	/*background:url(../../Sliced%20images/footer_bg.jpg) repeat;*/
@@ -26,6 +27,12 @@ a
 	color:#000000;
 }
 
+=======
+	font-size:12px;
+	background:url(../../Sliced%20images/footer_bg.jpg) repeat;
+	margin: auto;	
+}
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 #loginwrapper{
 	margin:auto;
 	width:425px;	
@@ -117,8 +124,12 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 
 .headerbg {
+<<<<<<< HEAD
 	width:auto;	   
 	/* border-bottom: 4px solid #003075;*/
+=======
+	width:auto;	    border-bottom: 4px solid #003075;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	
 }
 .headerline {
@@ -149,8 +160,13 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	width:1200px;
 	margin:auto;
 	overflow:hidden;
+<<<<<<< HEAD
 	/*border-right: 4px solid #003075;
     border-left: 4px solid #003075;*/
+=======
+	border-right: 4px solid #003075;
+    border-left: 4px solid #003075;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	background: #fff;	
 	display:table;	
 	min-height:500px;
@@ -160,7 +176,11 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	font-size:12px;
 }
 .top_text{
+<<<<<<< HEAD
 color: white;
+=======
+color: #003075;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 font-size: 25px;
 letter-spacing: 2px;
 font-weight: bold;
@@ -180,7 +200,11 @@ text-align: right;
 .logout span{
 	 padding-right:15px;
 	 font-size: 16px;
+<<<<<<< HEAD
     color: white;
+=======
+    color: #003075;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 
 }
 .logout a {
@@ -309,14 +333,22 @@ cursor:pointer;
 	line-height:75px;
 	width:100%;
 	color:#fff;
+<<<<<<< HEAD
 	/*border-top: 4px solid #003075;*/
+=======
+	border-top: 4px solid #003075;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 
 }
 
 #footerbg p {
 	text-align:center;
 	text-align: center;
+<<<<<<< HEAD
     color: white;
+=======
+    color: #003075;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
     font-size: 15px;
 }
 .textbox {
@@ -372,7 +404,11 @@ cursor:pointer;
 }
 .row {
 	width:850px;
+<<<<<<< HEAD
 	/*border:1px solid #999191;*/
+=======
+	border:1px solid #999191;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	margin-bottom:10px;
 }
 .rw {

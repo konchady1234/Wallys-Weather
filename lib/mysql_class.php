@@ -2,7 +2,11 @@
 class mysql{   
 
 /*===================== Admin Login start =============================*/
+<<<<<<< HEAD
 function admin_login($username,$password){
+=======
+	function admin_login($username,$password){
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 		
 		
 		  $sql="select * from `admin_table` where username='".$username."' and password='".$password."'";
@@ -23,6 +27,7 @@ function admin_login($username,$password){
 		}
 		return false;
 	}
+<<<<<<< HEAD
 	function  comLogin($username,$password){
 		
 		
@@ -54,6 +59,8 @@ function admin_login($username,$password){
 		}
 		return false;
 	}
+=======
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	/*============================= End  =============================*/
 	
 	/*============================= Change Password  =============================*/
@@ -77,6 +84,7 @@ function admin_login($username,$password){
 	 }
 	/*============================= End  =============================*/
 
+<<<<<<< HEAD
 function user_login($username,$password){
 		
 		
@@ -125,6 +133,8 @@ function client_admin_login($username,$password){
 
 
 
+=======
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
    /*============================= Query start  =============================*/
 		function add_query($field,$table){
 			

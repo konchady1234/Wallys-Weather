@@ -67,26 +67,46 @@ if(isset($_REQUEST['old_pwd']) && $_REQUEST['new_pwd'] && $_REQUEST['cfrm_pwd']!
 				 <? }?>
                 
                  <div class="space"></div>           
+<<<<<<< HEAD
                  <div class="hd_left" style="width: 124px;">Old Password <font color="#FF0000">*</font> </div>	
                  <div class="colon">:</div>		
                  <div class="des"><input type="password" name="old_pwd" id="old_pwd" class="textbox" onchange="countValid(this);"></div>	
+=======
+                 <div class="hd_left">Old Password <font color="#FF0000">*</font> </div>	
+                 <div class="colon">:</div>		
+                 <div class="des"><input type="password" name="old_pwd" id="old_pwd" class="textbox" ></div>	
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
                  <div class="clear"></div>	
                                                           
                  
                  <div class="space"></div>             
+<<<<<<< HEAD
                  <div class="hd_left" style="width: 124px;">New Password <font color="#FF0000">*</font></div>	
                  <div class="colon">:</div>		
                  <div class="des">                 
                  <input type="password" name="new_pwd" id="new_pwd" class="textbox" onchange="countValid(this);" ></div>
+=======
+                 <div class="hd_left">New Password <font color="#FF0000">*</font></div>	
+                 <div class="colon">:</div>		
+                 <div class="des">                 
+                 <input type="password" name="new_pwd" id="new_pwd" class="textbox" ></div>
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
                                           
                  
                  <div class="clear"></div>	
                  
                   <div class="space"></div>             
+<<<<<<< HEAD
                  <div class="hd_left" style="width: 124px;">Confirm Password <font color="#FF0000">*</font></div>	
                  <div class="colon">:</div>		
                  <div class="des">                 
                  <input type="password" name="cfrm_pwd" id="cfrm_pwd" class="textbox" onchange="countValid(this);"></div>
+=======
+                 <div class="hd_left">Confirm Password <font color="#FF0000">*</font></div>	
+                 <div class="colon">:</div>		
+                 <div class="des">                 
+                 <input type="password" name="cfrm_pwd" id="cfrm_pwd" class="textbox" ></div>
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
                  
                 </div>	
                  <div class="clear"></div>	
@@ -98,7 +118,11 @@ if(isset($_REQUEST['old_pwd']) && $_REQUEST['new_pwd'] && $_REQUEST['cfrm_pwd']!
                  <div class="des">
                
 				<input class="submit_btn" type="submit" value='Update' name="submit"  onclick='return validation()'  />
+<<<<<<< HEAD
                  <input class="submit_btn" type="reset" value='Reset' name="cancel"  />
+=======
+                 <input class="submit_btn" type="button" value='Cancel' name="cancel"  />
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
                  
                  </div>	
                  <div class="clear"></div>	
@@ -173,13 +197,18 @@ function validation()
 	}
 	else if(new_pwd!=cfrm_pwd) 
 	{ 
+<<<<<<< HEAD
 		alert("Password and confirm password must be same");		
+=======
+		alert("Please confirm your password");		
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 		document.getElementById('cfrm_pwd').focus();			
 		return false;
 	}
 		
 }
 
+<<<<<<< HEAD
 
 /*var reg= /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/;
 function countValid(new_pwd)
@@ -189,4 +218,6 @@ function countValid(new_pwd)
 	window.alert("Please enter at least 8 characters.");  
 }
 */
+=======
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 </script>

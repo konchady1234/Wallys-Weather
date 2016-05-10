@@ -2,18 +2,27 @@
 /* CSS Document */
 
 @font-face {
+<<<<<<< HEAD
     font-family: Arial;
+=======
+    font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
     src: url('font/ufonts.com_rockwell-bold-webfont.eot');
     src: url('font/ufonts.com_rockwell-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('font/ufonts.com_rockwell-bold-webfont.woff2') format('woff2'),
          url('font/ufonts.com_rockwell-bold-webfont.woff') format('woff'),
          url('font/ufonts.com_rockwell-bold-webfont.ttf') format('truetype'),
+<<<<<<< HEAD
          url('font/ufonts.com_rockwell-bold-webfont.svg#opensans') format('svg');
+=======
+         url('font/ufonts.com_rockwell-bold-webfont.svg#rockwell-boldregular') format('svg');
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
     font-weight: normal;
     font-style: normal;
 
 }
 
+<<<<<<< HEAD
 
 @font-face {
     font-family: Arial;
@@ -29,12 +38,20 @@
 }
 @font-face {
     font-family: Arial;
+=======
+@font-face {
+    font-family: 'open_sansregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
     src: url('font/opensans-regular-webfont.eot');
     src: url('font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('font/opensans-regular-webfont.woff2') format('woff2'),
          url('font/opensans-regular-webfont.woff') format('woff'),
          url('font/opensans-regular-webfont.ttf') format('truetype'),
+<<<<<<< HEAD
          url('font/opensans-regular-webfont.svg#Arial') format('svg');
+=======
+         url('font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
     font-weight: normal;
     font-style: normal;
 
@@ -84,6 +101,7 @@ padding:0;
 border:none;}
 body
 {
+<<<<<<< HEAD
 	background:url(../images/blkBlue.jpg) repeat;
 	width:100%;
 }
@@ -92,10 +110,16 @@ body
 	list-style:none;
 	float:left;
 }
+=======
+	background:url(../images/bg.jpg) repeat;
+	width:100%;
+}
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 .wrapper
 {
 	max-width:980px; width:100%; margin:auto;
 }
+<<<<<<< HEAD
 .faq
 {
 	padding: 8px;
@@ -104,6 +128,8 @@ body
     color: #000000;
     text-align: justify;
 }
+=======
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 .clear{
 	clear:both;
 }
@@ -175,7 +201,11 @@ body
 .fb
 {
     float: right;
+<<<<<<< HEAD
     margin-top: 85px;
+=======
+    margin-top: 86px;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
     margin-left: 25px;
 }
 .fb a:hover
@@ -234,7 +264,11 @@ body
 }
 .title h1
 {
+<<<<<<< HEAD
 	    font-family: 'opensans';
+=======
+	    font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 		font-size:30px;
 		color:#000000;
 		text-align:center;
@@ -268,24 +302,39 @@ body
 }
 .content h2
 {
+<<<<<<< HEAD
     font-family: Arial;
+=======
+    font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	color:#446586;
 	font-size:20px;
 }
 .content p
 {
+<<<<<<< HEAD
 	font-size:13px;
 	font-family: Arial;
+=======
+	font-size:15px;
+	font-family: 'open_sanssemibold';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	color:#000000;
 	text-align:justify;
 }
 .heading
 {
 	background:url(../images/titlebox.png) no-repeat;
+<<<<<<< HEAD
 	width:100%;
 	height:40px;
 	margin-top:50px;
 	/*background-size: 100% 100%;*/
+=======
+	width:228px;
+	height:40px;
+	margin-top:50px;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 }
 .heading1
 {
@@ -332,6 +381,10 @@ body
 	height:40px;
 	margin-top:75px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 .heading7
 {
 	background:url(../images/titlebox.png) no-repeat;
@@ -341,16 +394,25 @@ body
 }
 .heading h3
 {
+<<<<<<< HEAD
    font-family: Arial;
 	font-size:22px;
 	line-height:19px;
+=======
+   font-family: 'rockwell-boldregular';
+	font-size:22px;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	text-align:center;
 	color:#ffffff;
 	padding-top:9px;
 }
 .heading1 h3
 {
+<<<<<<< HEAD
    font-family: Arial;
+=======
+   font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	font-size:22px;
 	text-align:center;
 	color:#ffffff;
@@ -358,7 +420,11 @@ body
 }
 .heading2 h3
 {
+<<<<<<< HEAD
      font-family: Arial;
+=======
+     font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	font-size:22px;
 	text-align:center;
 	color:#ffffff;
@@ -366,7 +432,11 @@ body
 }
 .heading3 h3
 {
+<<<<<<< HEAD
      font-family: Arial;
+=======
+     font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	font-size:22px;
 	text-align:center;
 	color:#ffffff;
@@ -374,7 +444,11 @@ body
 }
 .heading4 h3
 {
+<<<<<<< HEAD
      font-family: Arial;
+=======
+     font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	font-size:22px;
 	text-align:center;
 	color:#ffffff;
@@ -382,7 +456,11 @@ body
 }
 .heading5 h3
 {
+<<<<<<< HEAD
     font-family: Arial;
+=======
+    font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	font-size:22px;
 	text-align:center;
 	color:#ffffff;
@@ -390,7 +468,11 @@ body
 }
 .heading6 h3
 {
+<<<<<<< HEAD
     font-family: Arial;
+=======
+    font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	font-size:22px;
 	text-align:center;
 	color:#ffffff;
@@ -398,7 +480,11 @@ body
 }
 .heading7 h3
 {
+<<<<<<< HEAD
     font-family: Arial;
+=======
+    font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	font-size:22px;
 	text-align:center;
 	color:#ffffff;
@@ -423,7 +509,11 @@ body
 .comment p 
 {
 	color:#446586;
+<<<<<<< HEAD
 	font-size:13px;
+=======
+	font-size:15px;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	text-decoration:none;
 	font-family: 'open_sansbold';
 }
@@ -452,14 +542,22 @@ body
 .date p a
 {
 	color:#446586;
+<<<<<<< HEAD
 	font-size:13px;
+=======
+	font-size:15px;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	text-decoration:none;
 	font-family: 'open_sansbold';
 }
 .date p 
 {
 	color:#446586;
+<<<<<<< HEAD
 	font-size:13px;
+=======
+	font-size:15px;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	text-decoration:none;
 	font-family: 'open_sansbold';
 }
@@ -501,7 +599,11 @@ float: left;
 }
 .title h1
 {
+<<<<<<< HEAD
 	font-family: Arial;
+=======
+	font-family: 'rockwell-boldregular';
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
     font-size: 30px;
     color: #000000;
     display: inline;
@@ -595,7 +697,11 @@ border: 1px solid #cccccc;
 .read p a
 {
 	color:#446586;
+<<<<<<< HEAD
 	font-size:13px;
+=======
+	font-size:15px;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 	text-decoration:none;
 	font-family: 'open_sansbold';
 }
@@ -608,6 +714,7 @@ border: 1px solid #cccccc;
 	text-decoration:underline;
 }
 .box1 {
+<<<<<<< HEAD
     /*background: url(../images/blog_box_top.png), url(../images/blog_box_bottom.png), url(../images/blog_box_center.png);*/
     background-position: left top, left bottom, left center;
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -618,6 +725,16 @@ border: 1px solid #cccccc;
 	background:white !important;
 
     /*margin-top: 25px;*/
+=======
+    background: url(../images/blog_box_top.png), url(../images/blog_box_bottom.png), url(../images/blog_box_center.png);
+    background-position: left top, left bottom, left center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+   background-size: 100% 3.75% , 100% 3.5%, 100% 93.2%;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
 }
 .comment_box {
     display: inline-block;
@@ -715,6 +832,7 @@ font-size: 20px;
     padding-top: 10px;
     padding-right: 32px;
 }
+<<<<<<< HEAD
 h1, h2
 {
     font-family: Arial;
@@ -1060,3 +1178,12 @@ width: 170px!important;
 {
 	color:#f00 !important;
 }}}
+=======
+
+
+	
+	
+
+	
+
+>>>>>>> 72b5b01fa70f0fba2e589a992e66ccb9ab41f4bc
